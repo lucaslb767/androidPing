@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PingPong</string>
+    <string name="text_digitar_url">Digite a URL</string>
+    <string name="text_hint_http">http://</string>
+    <string name="text_checar">Checar</string>
+    <string name="text_website_invalido">Website Inválido</string>
+    <string name="text_website_online">Website On-line</string>
+    <string name="text_https">https://</string>
+    <string name="text_digitar_rul">Digitar URL</string>
+    <string name="text_check">Check</string>
+</resources>
