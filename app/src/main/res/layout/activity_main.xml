@@ -16,13 +16,14 @@
         android:text="@string/text_digitar_url"
         android:textStyle="bold"
         android:textSize="@dimen/font_20sp"
-        android:textColor="@color/cor_azul"/>
+        android:textColor="@color/cor_branca"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:background="#fff">
+        android:background="#fff"
+        android:padding="@dimen/inside_padding">
 
         <EditText android:inputType="textUri"
             android:id="@+id/texto_linkurl"
@@ -34,9 +35,9 @@
 
         <Button
             android:id="@+id/botao_Checar"
-            android:layout_width="wrap_content"
+            android:layout_width="40dp"
             android:layout_height="wrap_content"
-            android:text="@string/text_check"/>
+            android:background="@drawable/btn_circular"/>
 
     </LinearLayout>
 
@@ -49,6 +50,7 @@
         android:textAlignment="center"
         android:textStyle="bold"
         android:textSize="@dimen/font_15sp"
+        android:textColor="@color/cor_branca"
         android:text=""/>
 
 
